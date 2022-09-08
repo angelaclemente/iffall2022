@@ -1,0 +1,47 @@
+p{
+    color:whitesmoke;
+}
+body{
+    background-color:black;
+}
+
+.header1{
+    color:chartreuse;
+}
+.header2{
+    color:greenyellow;
+}
+.header3{
+    color:red;
+}
+
+.actionitalic{
+    color:greenyellow;
+    border: 1px solid rgb(91, 28, 149);
+}
+
+#venkman{
+    color:aqua;
+}
+
+#barrett{
+    color:orange
+}
+
+#mayor{
+    color:aquamarine
+}
+
+#stantz{
+    color:lightskyblue
+}
+
+#spengler{
+    color:fuchsia
+}
+
+#zeddmore{
+    color:lightpink
+}
+
+
