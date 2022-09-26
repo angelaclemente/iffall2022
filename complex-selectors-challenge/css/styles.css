@@ -1,0 +1,80 @@
+/* 1 */
+header{
+    margin-bottom: 3rem;
+}
+
+/* 2 */
+p * {
+    line-height: 1.6;
+}
+
+/* 3 */
+.see-all{
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+/* 4 */
+h1{
+    font-size: 2.5rem;
+}
+
+/* 5 */
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* 6 */
+h1, h2{
+    font-weight: normal;
+}
+        /* normal works here, but light and lighter do not */
+
+
+/* 7*/        
+.cast img{
+    width:100%;
+}
+/* 8*/   
+.cast {
+    width: 25%;
+}
+/* 9*/   
+.shows>li{
+    border-top: 1px solid black;
+}
+
+/* 10*/   
+.selected a{
+    color: black;
+    font-weight:bold;
+}
+
+/* 11*/   
+.cast div{
+    font-size: .8rem;
+}
+
+/* 12*/   
+.cast li :nth-child(2){
+    font-weight: bold;
+}
+
+/* 13*/   
+.cast li :nth-child(3){
+    font-style:italic;
+}
+
+/* 14*/   
+li#game-of-thrones section.seasons ul>:last-child::after{
+    content: "*";
+}
+
+/* 15*/   
+
+#game-of-thrones section.seasons::after{
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+}
