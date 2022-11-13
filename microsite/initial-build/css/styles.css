@@ -1,0 +1,267 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("https://img.freepik.com/premium-photo/velvet-smooth-black-fabric-texture-fabric-background_400658-234.jpg?w=2000");
+    object-fit: cover;
+    /* https://www.freepik.com/premium-photo/velvet-smooth-black-fabric-texture-fabric-background_13351069.htm */
+}
+
+
+
+
+/* font-family: 'Alegreya Sans', sans-serif; */
+/* font-family: 'Philosopher', sans-serif; */
+
+header {
+    background-color: black;
+}
+
+#main-nav h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 35pt;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+h3{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding-bottom: 12px;
+    border-bottom: 2px dashed rgb(255, 255, 255);
+
+}
+
+#main-nav ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: .2em 2em;
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#main-nav ul li a:hover {
+    color: rgb(174, 174, 174);
+}
+
+#main-nav ul li a:focus {
+    color: rgb(96, 96, 96);
+}
+
+#main-nav ul li a.selected {
+    font-weight: 700;
+}
+
+.links ul{
+    list-style: none;
+}
+.links ul#sources-links a{
+    font-family: 'Alegreya Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: .2em 2em;
+    margin: 0 10px;
+}
+
+.links ul#sources-links a:hover {
+    color: rgb(174, 174, 174);
+}
+.links ul#sources-links a:focus {
+    color: rgb(96, 96, 96);
+}
+
+
+
+
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.images {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menubar {
+    display: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+footer#home-footer, footer#japan-footer, footer#sources-footer{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+.footer-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+footer p {
+    color: rgb(177, 177, 177);
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+/* MENU BAR */
+
+.open-menu #small-nav {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.956);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#small-nav h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+#small-nav ul {
+    list-style: none;
+}
+#small-nav ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: .2em 2em;
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+#small-nav ul li a:hover {
+    color: rgb(174, 174, 174);
+}
+#small-nav ul li a:focus {
+    color: rgb(96, 96, 96);
+}
+#small-nav ul li a.selected {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1025px) {
+    .column {
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    #main-nav h1 {
+        font-size: 25pt;
+        border-bottom: 2px dashed white;
+    }
+
+    #main-nav ul {
+        display: none;
+    }
+
+    .menubar {
+        display: inline-block;
+        position: relative;
+        left: 13%;
+        top: 50px;
+    }
+
+}
+
+@media (max-width: 480px) {}
