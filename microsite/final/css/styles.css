@@ -1,0 +1,516 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://i.pinimg.com/originals/b4/9f/ae/b49fae1bccef56677c4294d30784bd51.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("https://img.freepik.com/premium-photo/velvet-smooth-black-fabric-texture-fabric-background_400658-234.jpg?w=2000"); */
+
+    object-fit: cover;
+    /* https://www.freepik.com/premium-photo/velvet-smooth-black-fabric-texture-fabric-background_13351069.htm */
+}
+
+
+
+
+/* font-family: 'Alegreya Sans', sans-serif; */
+/* font-family: 'Philosopher', sans-serif; */
+
+header {
+    background-color: black;
+}
+
+#main-nav h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 35pt;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main-nav a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Philosopher', sans-serif;
+    margin-left: -30px;
+}
+
+h3 {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding-bottom: 12px;
+    /* border-bottom: 2px dashed rgb(255, 255, 255); */
+
+}
+
+
+.block {
+    height: 1px;
+    /* dashed border */
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='2' stroke-dasharray='20%2c 45' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='2' stroke-dasharray='20%2c 45' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='white' stroke-width='2' stroke-dasharray='20%2c 45' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+
+    /* source: https://kovart.github.io/dashed-border-generator/ */
+}
+
+
+
+#main-nav ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: .2em 2em;
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#main-nav ul li a:hover {
+    color: rgb(174, 174, 174);
+    cursor: pointer;
+}
+
+#main-nav ul li a:focus {
+    color: rgb(96, 96, 96);
+}
+
+#main-nav ul li a.selected {
+    font-weight: 700;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul#sources-links a {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: .2em 2em;
+    margin: 0 10px;
+}
+
+.links ul#sources-links a:hover {
+    color: rgb(174, 174, 174);
+}
+
+.links ul#sources-links a:focus {
+    color: rgb(96, 96, 96);
+}
+
+
+
+
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p.final {
+    padding-bottom: 5em;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.images {
+    width: 100%;
+    padding-top: 40px;
+    object-fit: cover;
+}
+
+
+.img-caption {
+    font-size: 12px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+#img-paris-1 {
+
+    padding-bottom: 15px;
+}
+
+#sources-main-img {
+    width: 80%;
+    max-width: 1200px;
+}
+
+#src-img-container {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menubar {
+    display: none;
+}
+
+
+.source-content {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#sources-links {
+
+    width: 200px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+footer#home-footer,
+footer#sources-footer {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+.footer-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 70%;
+    max-width: 1000px; */
+}
+
+footer p {
+    color: rgb(177, 177, 177);
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    color: rgb(177, 177, 177);
+}
+
+.icons:hover {
+    color: rgb(121, 121, 121);
+}
+
+.foot-item {
+    text-decoration: none;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    color: rgb(177, 177, 177);
+    text-transform: capitalize;
+}
+
+.foot-col {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+.right-footer {
+    text-align: right;
+}
+
+
+
+/* MENU BAR */
+
+/* .open-menu #small-nav { */
+/* display: block; */
+/* display: none;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.956);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+} */
+
+.show-menu {
+    /* display: block; */
+    /* display: none; */
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.956);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.hide {
+    display: none;
+}
+
+/* #small-nav{
+    display: none;
+} */
+
+
+
+#small-nav h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+#small-nav ul {
+    list-style: none;
+}
+
+#small-nav ul li a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: .2em 2em;
+    margin: 0 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#small-nav ul li a:hover {
+    color: rgb(174, 174, 174);
+}
+
+#small-nav ul li a:focus {
+    color: rgb(96, 96, 96);
+}
+
+#small-nav ul li a.selected {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.menubar {
+    /* display: none !important; */
+    position: absolute;
+    visibility: hidden;
+    display: none;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1026px) {
+    .japan-img {
+
+        height: 50vh;
+    }
+
+    .paris-img-1 {
+        height: 36vh;
+    }
+
+    .paris-img-2 {
+        height: 47vh;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 1025px) {
+    .column {
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .japan-img {
+        height: fit-content;
+    }
+
+    .paris-img-1 {
+
+        height: fit-content;
+    }
+
+    .paris-img-2 {
+        height: fit-content;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+    .images {
+        padding-top: 15px;
+        /* width: 80%; */
+        /* max-width: 400px; */
+        /* padding: 0px; */
+    }
+
+    .img-caption {
+        /* font-size: 11px; */
+        padding-bottom: 0px;
+
+
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    #main-nav h1 {
+        font-size: 23pt;
+    }
+
+    #small-nav h1 {
+        font-size: 23pt;
+    }
+
+    #main-nav ul {
+        display: none;
+    }
+
+    .menubar {
+        display: inline-block;
+        position: relative;
+        left: 13%;
+        top: 50px;
+    }
+
+    h2 {
+
+        margin-left: 0;
+        font-size: 16pt;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+
+
+
+    .images {
+        /* padding-top: 15px; */
+        width: 80%;
+        max-width: 400px;
+        padding: 0px;
+
+    }
+
+    .img-caption {
+        font-size: 11px;
+        padding-bottom: 0px;
+
+
+    }
+
+    .content {
+
+        width: 95%;
+    }
+
+    footer p {
+        font-size: 8pt;
+    }
+
+    footer .icons {
+        font-size: 9pt;
+    }
+
+    @media (max-width: 480px) {
+        p {
+            font-size: 11pt;
+        }
+    }
+
+
+    @media only screen and (min-width: 10px) and (max-width: 770px) {
+        /* do something in this width range. */
+
+        .menubar {
+            display: block;
+            visibility: visible;
+        }
+    }

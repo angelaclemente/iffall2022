@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fully Realized</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f076b3138c.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $(".menubar").click(function () {
+
+                $("#small-nav").toggleClass("show-menu");
+                console.log("toggle the class on")
+            });
+
+
+
+        });
+
+
+        $(document).ready(function () {
+
+            $(".menubar").click(function () {
+
+                $("#small-nav").toggleClass("hide");
+                console.log("toggle the class on")
+            });
+
+
+
+        });
+
+
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="big-nav">
+                <div id="main-nav">
+                    <i class="fa-solid fa-bars menubar"></i>
+
+                    <a href="index.html"><h1>Yohji Yamamoto</h1></a>
+                    <ul>
+                        <li>
+                            <a href="index.html" >home</a>
+                        </li>
+
+                        <li>
+                            <a href="japan.html">life in Japan</a>
+                        </li>
+
+                        <li>
+                            <a href="paris.html">Life in Paris</a>
+                        </li>
+
+                        <li>
+                            <a href="worldwide.html">US and Worldwide</a>
+                        </li>
+
+                        <li>
+                            <a href="sources.html" class="selected">sources</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="block">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="small-nav" class="hide">
+                <div id="drawer">
+                    <i class="fa-solid fa-bars menubar"></i>
+
+                    <h1>Yohji Yamamoto</h1>
+                    <ul>
+                        <li>
+                            <a href="index.html" >home</a>
+                        </li>
+
+                        <li>
+                            <a href="japan.html">life in Japan</a>
+                        </li>
+
+                        <li>
+                            <a href="paris.html">Life in Paris</a>
+                        </li>
+
+                        <li>
+                            <a href="worldwide.html">US and Worldwide</a>
+                        </li>
+
+                        <li>
+                            <a href="sources.html" class="selected">sources</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <div class="open-menu">
+
+
+            <!-- <nav id="small-nav" class="menu show-menu">
+
+                <i class="fa-solid fa-bars menubar"></i>
+
+                <h1>Yohji Yamamoto</h1>
+                <ul>
+                    <li>
+                        <a href="index.html" class="selected">home</a>
+                    </li>
+
+                    <li>
+                        <a href="japan.html">life in Japan</a>
+                    </li>
+
+                    <li>
+                        <a href="paris.html">Life in Paris</a>
+                    </li>
+
+                    <li>
+                        <a href="worldwide.html">US and Worldwide</a>
+                    </li>
+
+                    <li>
+                        <a href="sources.html">sources</a>
+                    </li>
+
+
+                </ul>
+
+            </nav> -->
+
+
+
+
+        </div>
+
+    </header>
+    <div>
+        <div class="content">
+            <h3>Sources</h3>
+
+
+            <div class="row source-content">
+                <!-- <div class="column"> -->
+
+                <div class="content links">
+
+                    <ul id="sources-links">
+                        <li>
+                            <a href="https://en.wikipedia.org/wiki/Yohji_Yamamoto">Wikipedia.org</a>
+
+                        </li>
+
+                        <li>
+
+                            <a href="https://www.maramarietta.com/the-arts/fashion/yohji-yamamoto/">Maramarietta.com</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.vogue.com/fashion-shows/designer/y-3">Vogue.com</a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="https://www.businessoffashion.com/community/people/yohji-yamamoto#:~:text=Born%20in%20Tokyo%2C%20Yamamoto%20graduated,career%20was%20not%20for%20him">Businessoffashion.com</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.nssmag.com/en/fashion/23561/yohji-yamamoto">NSS Magazine</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+            <!-- <div class="column"> -->
+            <div id="src-img-container">
+                <img id="sources-main-img" src="https://data.nssmag.com/images/galleries/25093/yohji-yamamoto-5.jpg"
+                    alt="Yamamoto with his garments">
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="sources-footer">
+        <div class="footer-container">
+            <div class="content">
+
+                <div class="row content">
+                    <div class="foot-col">
+
+
+                        <p>Designer: Angela Clemente</p>
+                        <p>Creative Director: Greg Guan</p>
+
+
+                    </div>
+
+                    <div class="right-footer foot-col">
+                        <p>© 2022 Yohji Yamamoto</p>
+                        <!-- <a class="foot-item" href="https://theshopyohjiyamamoto.com/">shop</a><br> -->
+                        <a href="https://theshopyohjiyamamoto.com/"><i class="fa-solid fa-cart-shopping icons"></i></a>
+
+                        <a href="https://www.instagram.com/yohjiyamamotoofficial/"><i
+                                class="fa-brands fa-instagram icons"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
